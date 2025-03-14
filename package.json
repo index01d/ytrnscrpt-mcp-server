@@ -4,10 +4,10 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "ytrnscrpt-mcp-server": "./build/index.js"
+    "ytrnscrpt-mcp-server": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\""
   },
   "files": [
     "build"
